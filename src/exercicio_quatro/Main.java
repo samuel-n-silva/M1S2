@@ -16,14 +16,12 @@ public class Main {
 
         System.out.println("--- Calcular Imposto de renda ---");
         System.out.print("Informe o valor total da sua renda:");
-
+        double renda = ler.nextDouble();
         /*
         * Armazena o valor da renda
         * setar o valor da renda
         * realizar e imprimir imposto
         * */
-
-        double renda = ler.nextDouble();
         novoCalculo.setRenda(renda);
         novoCalculo.imprimirImposto();
     }
