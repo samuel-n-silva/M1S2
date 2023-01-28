@@ -60,7 +60,7 @@ public class ImpostoRenda {
     * imprimir calculo
     * */
     public void imprimirImposto(){
-        double imposto = calcularImposto(this.renda);
+        double imposto = calcularImposto(getRenda());
         NumberFormat moedaBRL = NumberFormat.getCurrencyInstance();
         System.out.println("Valor a pagar de imposto de renda: "+ moedaBRL.format(imposto));
     }
