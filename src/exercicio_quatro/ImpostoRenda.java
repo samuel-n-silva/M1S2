@@ -37,8 +37,7 @@ public class ImpostoRenda {
         return (renda * 0.225) - 2231.51;
     }
 
-    public static double calcularImposto(double renda) {
-
+    private static double calcularImposto(double renda) {
         /*
          * Verificar faixa e realizar calculo
          **/
